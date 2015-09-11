@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var curentTemperateLabel: UILabel?
+    @IBOutlet weak var currentTemperatureLabel: UILabel?
     @IBOutlet weak var currentHumidityLabel: UILabel?
     @IBOutlet weak var currentPrecipitationLabel: UILabel?
     @IBOutlet weak var currentWeatherIcon: UIImageView?
@@ -33,7 +33,7 @@ class ViewController: UIViewController {
             if let currentWeather = currently {
                 dispatch_async(dispatch_get_main_queue()) {
                     if let temperature = currentWeather.temperature {
-                        self.curentTemperateLabel?.text = "\(temperature)º"
+                        self.currentTemperatureLabel?.text = "\(temperature)º"
                     }
                     if let humidity = currentWeather.humidity {
                         self.currentHumidityLabel?.text = "\(humidity)%"

@@ -119,9 +119,9 @@
                     </view>
                     <connections>
                         <outlet property="activityIndictator" destination="ajv-P8-XRP" id="UBM-3j-GTg"/>
-                        <outlet property="curentTemperateLabel" destination="dq5-zC-KKf" id="6Ou-sR-GYK"/>
                         <outlet property="currentHumidityLabel" destination="wng-vO-fmd" id="cfb-oz-2NQ"/>
                         <outlet property="currentPrecipitationLabel" destination="ia0-Lg-xIR" id="6wf-0j-Ael"/>
+                        <outlet property="currentTemperatureLabel" destination="dq5-zC-KKf" id="itR-u9-Vtd"/>
                         <outlet property="currentWeatherIcon" destination="EL7-wV-2BX" id="VZD-NB-eZ5"/>
                         <outlet property="currentWeatherSummary" destination="jK4-8w-waB" id="whr-Qg-EXs"/>
                         <outlet property="refreshButton" destination="UJL-Rl-WF8" id="cqL-zJ-gT2"/>
